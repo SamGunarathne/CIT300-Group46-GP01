@@ -48,4 +48,9 @@ public class Graph {
     public boolean hasLocation(String location) {
         return adjList.containsKey(location);
     }
+    
+    public Set<String> getAllLocations() {
+        return adjList.keySet();
+    }
+   
 }
