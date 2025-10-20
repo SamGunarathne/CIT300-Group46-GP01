@@ -1,3 +1,5 @@
+package SCRP;
+
 // LocationManager.java
 public class LocationManager {
     private Graph graph;
